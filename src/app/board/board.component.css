@@ -1,0 +1,39 @@
+.board--background {
+  margin: auto;
+  max-width: 480px;
+  min-width: 480px;
+  min-height: 320px;
+  background-color: black;
+}
+
+.paddle {
+
+}
+
+:host ::ng-deep .paddle--left .paddle{
+  background-color: red;
+  float: left;
+}
+
+:host ::ng-deep .paddle--right .paddle{
+  background-color: blue;
+  float:right;
+}
+
+.score--left {
+  float: left;
+}
+
+:host ::ng-deep .score--left div {
+  border-color: red;
+}
+
+.score--right {
+  float: right;
+}
+
+
+:host ::ng-deep .score--right div {
+  border-color: blue;
+}
+

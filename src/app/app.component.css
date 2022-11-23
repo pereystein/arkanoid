@@ -1,0 +1,9 @@
+.application--title {
+  position: relative;
+  left: 40%;
+}
+
+.application {
+  margin: auto;
+  max-width: 960px;
+}

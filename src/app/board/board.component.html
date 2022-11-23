@@ -1,0 +1,7 @@
+<div class="board--background">
+  <app-paddle #left class="paddle--left" up="a" down="z"></app-paddle>
+  <app-paddle #right class="paddle--right" up="o" down="l"></app-paddle>
+  <app-ball [xPos]="ball.x" [yPos]="ball.y"></app-ball>
+</div>
+<app-score class="score--left" [score]="redScore"></app-score>
+<app-score class="score--right" [score]="blueScore"></app-score>

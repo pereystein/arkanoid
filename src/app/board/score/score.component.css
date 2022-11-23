@@ -1,0 +1,6 @@
+.score--border {
+  font-size: 100px;
+  border-width: 5px;
+  border-style: solid;
+  padding: 0 30px;
+}
